@@ -14,7 +14,7 @@ namespace Homework_number_13
             const string CommandToSetName = "SetName";
             const string CommandToChangeColourConsole = "ChangeConsoleColor";
             const string CommandToSetPassword = "SetPassword";
-            const string CommandToOutputName = "WriteName";
+            const string CommandToWriteName = "WriteName";
             const string CommandStop = "Esc";
 
             bool isExit = false;
@@ -59,7 +59,7 @@ namespace Homework_number_13
                         Console.WriteLine($"Пароль успешно изменён : {userPasword}");
                         break;
 
-                    case CommandToOutputName:
+                    case CommandToWriteName:
                         if (userPasword == "")
                         {
                             Console.WriteLine("Эта команда станет доступной только после того как вы установите пароль !");
