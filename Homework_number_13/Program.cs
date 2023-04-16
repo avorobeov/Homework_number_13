@@ -60,7 +60,7 @@ namespace Homework_number_13
                         break;
 
                     case CommandToWriteName:
-                        if (userPasword == "")
+                        if (string.IsNullOrEmpty(userPasword))
                         {
                             Console.WriteLine("Эта команда станет доступной только после того как вы установите пароль !");
                         }
